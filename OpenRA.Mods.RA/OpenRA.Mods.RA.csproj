@@ -106,6 +106,9 @@
     <Compile Include="Scripting\Properties\ParadropProperties.cs" />
     <Compile Include="Scripting\Properties\ParatroopersProperties.cs" />
     <Compile Include="Traits\Render\WithDisguisingInfantryBody.cs" />
+	<Compile Include="Warheads\ChangeOwnerWarhead.cs" />
+	<Compile Include="Traits\TemporaryOwnerManager.cs" />
+	<Compile Include="Traits\YuriUnit.cs" />	
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OpenRA.Game\OpenRA.Game.csproj">

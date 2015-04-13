@@ -279,6 +279,36 @@ E7:
 		IdleSequences: idle1,idle2
 	AnnounceOnBuild:
 	AnnounceOnKill:
+	
+yuri:
+	Inherits: ^Infantry
+	Buildable:
+		Queue: Infantry
+		BuildAtProductionType: Soldier
+		BuildPaletteOrder: 140
+		Prerequisites: fix, stek, ~vehicles.soviet, ~techlevel.unrestricted
+	Valued:
+		Cost: 1200
+	Tooltip:
+		Name: Yuri
+		Description: Elite commando infantry. Armed with\n mentalism.\n  Strong vs Infantry, Buildings\n  Strong vs Vehicles\n  Special Ability: Control enemy units
+	Selectable:
+		Bounds: 16,32,-2,-18
+	Health:
+		HP: 100
+	Mobile:
+		Speed: 71
+	RevealsShroud:
+		Range: 6c0
+	Passenger:
+		PipType: Red
+	Armament@PRIMARY:
+		Weapon: Mentalism
+	AttackFrontal:
+	TakeCover:
+	WithInfantryBody:
+		IdleSequences: idle1,idle2	
+	YuriUnit:
 
 MEDI:
 	Inherits: ^Infantry

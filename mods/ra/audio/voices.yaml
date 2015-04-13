@@ -64,6 +64,15 @@ TanyaVoice:
 		Build: laugh1
 		Kill: gotit1,lefty1
 		Demolish: keepem1,tuffguy1
+		
+YuriVoice:
+	Voices:
+		Select: iyursea, iyurseb, iyursec, iyursed, iyursee
+		Move: iyurmoa, iyurmob, iyurmoc, iyurmod
+		Attack: iyurata, iyuratb, iyuratc, iyuratd, iyurate
+		Die: iyurdia, iyurdib, iyurdic
+		Zapped: igenzapa
+		Burned: ienadia #gotta put something as temp else game crashes		
 
 DogVoice:
 	Voices:

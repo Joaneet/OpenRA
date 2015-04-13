@@ -72,6 +72,7 @@
 	TimedUpgradeBar:
 		Upgrade: invulnerability
 	MustBeDestroyed:
+	TemporaryOwnerManager:
 
 ^Tank:
 	AppearsOnRadar:
@@ -156,6 +157,7 @@
 		GroundCorpsePalette:
 		WaterCorpseSequence:
 		WaterCorpsePalette:
+	TemporaryOwnerManager:
 
 ^Infantry:
 	AppearsOnRadar:
@@ -246,6 +248,7 @@
 		UpgradeMinEnabledLevel: 1
 	UpgradeManager:
 	MustBeDestroyed:
+	TemporaryOwnerManager:
 
 ^Ship:
 	AppearsOnRadar:
@@ -300,6 +303,7 @@
 		Upgrade: invulnerability
 		UpgradeMinEnabledLevel: 1
 	MustBeDestroyed:
+	TemporaryOwnerManager:
 
 ^Plane:
 	AppearsOnRadar:
@@ -546,6 +550,7 @@
 		Types: CivilianInfantry
 	WithInfantryBody:
 	ScaredyCat:
+	TemporaryOwnerManager:
 
 ^CivBuilding:
 	Inherits: ^TechBuilding
